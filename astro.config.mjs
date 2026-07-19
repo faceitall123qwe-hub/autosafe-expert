@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/autosafe-expert',
   i18n: {
     defaultLocale: 'pl',
-    locales: ['pl', 'uk'],
+    locales: ['pl', 'uk', 'en', 'ru', 'be'],
     routing: { prefixDefaultLocale: false },
   },
   vite: {
