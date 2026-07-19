@@ -33,8 +33,8 @@ const icons: Record<string, string> = {
 <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-[var(--color-line)]">
   <div class="container-x flex items-center justify-between h-16">
     <a href={`${base}/${langs.find((l) => l.code === locale)!.path}`} class="flex items-center gap-2 text-[var(--color-ink)] font-bold text-lg">
-      <span class="grid place-items-center w-8 h-8 rounded-lg bg-[var(--color-brand)] text-white">A</span>
-      {brand.name}
+      <img src={`${base}/img/logo-car.svg`} alt="" class="h-9 w-auto" />
+      <span class="hidden min-[400px]:inline">{brand.name}</span>
     </a>
     <nav class="hidden lg:flex items-center gap-6 text-sm text-[var(--color-muted)]">
       <a href="#uslugi" class="hover:text-[var(--color-brand)]">{t.nav.services}</a>
@@ -337,7 +337,8 @@ const icons: Record<string, string> = {
 <footer class="bg-[var(--color-ink)] text-white/60 py-10">
   <div class="container-x flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
     <div>
-      <div class="text-white font-semibold">{brand.name}</div>
+      <img src={`${base}/img/logo-car.svg`} alt="" class="h-8 w-auto invert opacity-80" />
+      <div class="mt-2 text-white font-semibold">{brand.name}</div>
       <div class="mt-1">{t.footer.disclaimer}</div>
     </div>
     <div class="text-center sm:text-right">
