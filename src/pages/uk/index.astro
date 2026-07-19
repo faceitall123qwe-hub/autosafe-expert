@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import Landing from '../../components/Landing.astro';
+import { content } from '../../data/content';
+const t = content.uk;
+---
+
+<Base lang="uk" title={t.meta.title} description={t.meta.description}>
+  <Landing locale="uk" otherHref="/" otherLabel="PL" />
+</Base>
