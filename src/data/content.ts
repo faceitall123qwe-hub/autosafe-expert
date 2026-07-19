@@ -7,10 +7,12 @@ export type Locale = 'pl' | 'uk';
 export const brand = {
   name: 'AutoSafe Expert',
   owner: 'Iwan Bazylewicz',
-  phone: '+48 220 241 652',
-  phoneHref: '+48220241652',
-  email: 'iwanbazylewicz@gmail.com',
-  whatsapp: '+48220241652',
+  phone: '+48 799 979 735',
+  phoneHref: '+48799979735',
+  phone2: '+48 730 371 225',
+  phone2Href: '+48730371225',
+  email: 'bazylewicziwan@gmail.com',
+  whatsapp: '+48799979735',
   facebook: '', // TODO wklej link po założeniu strony FB, np. https://www.facebook.com/autosafeexpert
   googleReview: '', // TODO wklej link "napisz opinię" z Profilu Firmy Google
 };

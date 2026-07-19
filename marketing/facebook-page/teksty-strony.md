@@ -26,8 +26,8 @@ Co robię:
 Dojazd do 100 km w cenie.
 Warszawa • Radzymin • okolice.
 
-📞 +48 220 241 652
-✉ iwanbazylewicz@gmail.com
+📞 +48 799 979 735
+✉ bazylewicziwan@gmail.com
 Pon.–Sob. 8:00–20:00
 ```
 (Uwaga: usuń emotki, jeśli nie pasują — ale na FB poprawiają czytelność.)
@@ -41,7 +41,7 @@ Pon.–Sob. 8:00–20:00
 | Kompleksowa usługa (A–Z) | 800 zł netto | Wyszukanie, sprawdzenie, negocjacja, umowa, rejestracja |
 
 ## PRZYCISK AKCJI
-„Zadzwoń" → +48 220 241 652
+„Zadzwoń" → +48 799 979 735
 (alternatywnie „Wyślij wiadomość" → WhatsApp)
 
 ## ODPOWIEDŹ AUTOMATYCZNA (Messenger — ustaw w Meta Business Suite)
@@ -49,7 +49,7 @@ Pon.–Sob. 8:00–20:00
 Dzień dobry, dziękuję za kontakt z AutoSafe Expert!
 Proszę napisać: jakiego samochodu dotyczy sprawa i gdzie znajduje się pojazd (lub urząd).
 Odpowiem najszybciej jak to możliwe i podam koszt usługi.
-W pilnych sprawach: +48 220 241 652 (Pon.–Sob. 8:00–20:00).
+W pilnych sprawach: +48 799 979 735 (Pon.–Sob. 8:00–20:00).
 ```
 
 ## WERSJA UA — BIO
