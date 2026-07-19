@@ -9,7 +9,7 @@ import { brand } from '../data/content';
   description="Polityka prywatności serwisu AutoSafe Expert — zasady przetwarzania danych osobowych zgodnie z RODO."
 >
   <main class="container-x max-w-3xl py-14">
-    <a href="/" class="text-sm text-[var(--color-brand)] hover:underline">&larr; Wróć na stronę główną</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/`} class="text-sm text-[var(--color-brand)] hover:underline">&larr; Wróć na stronę główną</a>
     <h1 class="mt-6 text-3xl font-bold" style="font-family:var(--font-serif)">Polityka prywatności</h1>
     <p class="mt-2 text-sm text-[var(--color-muted)]">Obowiązuje od: 19 lipca 2026 r.</p>
 

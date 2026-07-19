@@ -6,5 +6,5 @@ const t = content.pl;
 ---
 
 <Base lang="pl" title={t.meta.title} description={t.meta.description}>
-  <Landing locale="pl" otherHref="/uk/" otherLabel="UA" />
+  <Landing locale="pl" otherHref={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/uk/`} otherLabel="UA" />
 </Base>
