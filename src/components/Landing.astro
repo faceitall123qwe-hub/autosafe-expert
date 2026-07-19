@@ -8,6 +8,7 @@ interface Props {
 }
 const { locale, otherHref, otherLabel } = Astro.props;
 const t = content[locale];
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const telHref = `tel:${brand.phoneHref}`;
 const waHref = `https://wa.me/${brand.whatsapp.replace(/[^0-9]/g, '')}`;
@@ -25,7 +26,7 @@ const icons: Record<string, string> = {
 <!-- HEADER -->
 <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-[var(--color-line)]">
   <div class="container-x flex items-center justify-between h-16">
-    <a href={locale === 'pl' ? '/' : '/uk/'} class="flex items-center gap-2 text-[var(--color-ink)] font-bold text-lg">
+    <a href={locale === 'pl' ? `${base}/` : `${base}/uk/`} class="flex items-center gap-2 text-[var(--color-ink)] font-bold text-lg">
       <span class="grid place-items-center w-8 h-8 rounded-lg bg-[var(--color-brand)] text-white">A</span>
       {brand.name}
     </a>
@@ -65,10 +66,7 @@ const icons: Record<string, string> = {
       </ul>
     </div>
     <div class="bg-white border border-[var(--color-line)] rounded-2xl p-6 md:p-8 shadow-[0_20px_50px_-20px_rgba(16,42,84,0.25)]">
-      <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-[var(--color-brand)] to-[var(--color-navy)] grid place-items-center text-white/50 text-sm text-center">
-        <!-- TODO: podmień na zdjęcie eksperta / auta (public/img/hero.jpg) -->
-        [ Zdjęcie eksperta / auta ]
-      </div>
+      <img src={`${base}/img/hero.jpg`} alt="Pomiar grubości lakieru podczas oględzin auta" class="aspect-[4/3] w-full rounded-xl object-cover" loading="eager" />
       <div class="mt-6 grid grid-cols-3 gap-4 text-center">
         <div><div class="text-2xl font-bold text-[var(--color-brand)]">15</div><div class="text-xs text-[var(--color-muted)]">lat ekspertyz</div></div>
         <div><div class="text-2xl font-bold text-[var(--color-brand)]">100 km</div><div class="text-xs text-[var(--color-muted)]">dojazd w cenie</div></div>
@@ -175,10 +173,8 @@ const icons: Record<string, string> = {
 <section id="ekspert" class="py-16 md:py-20 bg-[var(--color-paper)]">
   <div class="container-x grid md:grid-cols-2 gap-10 items-start">
     <div>
-      <div class="aspect-[3/4] max-w-sm rounded-2xl bg-gradient-to-br from-[var(--color-navy)] to-[var(--color-ink)] grid place-items-center text-white/40 text-sm">
-        <!-- TODO: zdjęcie eksperta (public/img/expert.jpg) -->
-        [ Zdjęcie: Iwan Bazylewicz ]
-      </div>
+      <!-- Docelowo: prawdziwe zdjęcie Iwana (podmień public/img/expert.jpg) -->
+      <img src={`${base}/img/expert.jpg`} alt="Ekspert podczas oględzin samochodu" class="aspect-[3/4] max-w-sm w-full rounded-2xl object-cover" loading="lazy" />
     </div>
     <div>
       <h2 class="text-2xl md:text-3xl font-bold" style="font-family:var(--font-serif)">{t.expert.title}</h2>
@@ -322,7 +318,7 @@ const icons: Record<string, string> = {
     </div>
     <div class="text-center sm:text-right">
       <div>{brand.phone} · {brand.email}{brand.facebook && <> · <a href={brand.facebook} target="_blank" rel="noopener" class="hover:text-white">Facebook</a></>}</div>
-      <div class="mt-1">© {new Date().getFullYear()} {brand.name}. {t.footer.rights} · <a href="/polityka-prywatnosci/" class="hover:text-white underline underline-offset-2">{t.footer.privacy}</a></div>
+      <div class="mt-1">© {new Date().getFullYear()} {brand.name}. {t.footer.rights} · <a href={`${base}/polityka-prywatnosci/`} class="hover:text-white underline underline-offset-2">{t.footer.privacy}</a></div>
     </div>
   </div>
 </footer>
