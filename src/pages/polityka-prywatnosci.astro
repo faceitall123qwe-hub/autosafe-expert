@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import { brand } from '../data/content';
+---
+
+<Base
+  lang="pl"
+  title={`Polityka prywatności — ${brand.name}`}
+  description="Polityka prywatności serwisu AutoSafe Expert — zasady przetwarzania danych osobowych zgodnie z RODO."
+>
+  <main class="container-x max-w-3xl py-14">
+    <a href="/" class="text-sm text-[var(--color-brand)] hover:underline">&larr; Wróć na stronę główną</a>
+    <h1 class="mt-6 text-3xl font-bold" style="font-family:var(--font-serif)">Polityka prywatności</h1>
+    <p class="mt-2 text-sm text-[var(--color-muted)]">Obowiązuje od: 19 lipca 2026 r.</p>
+
+    <div class="mt-8 space-y-6 text-[15px] leading-relaxed [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:mt-8 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-1">
+      <h2>1. Administrator danych</h2>
+      <p>
+        Administratorem danych osobowych jest
+        <!-- TODO: uzupełnij pełne dane firmy taty -->
+        <strong>[NAZWA FIRMY] — Iwan Bazylewicz</strong>, NIP: [NIP], adres: [ADRES],
+        e-mail: {brand.email}, tel. {brand.phone} (dalej: „Administrator").
+      </p>
+
+      <h2>2. Jakie dane przetwarzamy</h2>
+      <ul>
+        <li>dane przekazane w formularzu kontaktowym, e-mailu, telefonicznie lub przez WhatsApp: imię, numer telefonu, adres e-mail, treść wiadomości (w tym informacje o pojeździe);</li>
+        <li>dane niezbędne do wykonania usługi i rozliczenia (np. dane do faktury).</li>
+      </ul>
+
+      <h2>3. Cele i podstawy przetwarzania</h2>
+      <ul>
+        <li>kontakt i odpowiedź na zapytanie — art. 6 ust. 1 lit. b RODO (działania przed zawarciem umowy);</li>
+        <li>wykonanie usługi i rozliczenie — art. 6 ust. 1 lit. b i c RODO;</li>
+        <li>ewentualne dochodzenie lub obrona roszczeń — art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes).</li>
+      </ul>
+
+      <h2>4. Okres przechowywania</h2>
+      <p>
+        Dane z zapytań przechowujemy przez okres prowadzenia korespondencji, a następnie do czasu przedawnienia
+        ewentualnych roszczeń. Dane rozliczeniowe — przez okres wymagany przepisami podatkowymi.
+      </p>
+
+      <h2>5. Odbiorcy danych</h2>
+      <p>
+        Dane mogą być powierzane podmiotom obsługującym Administratora (hosting strony, poczta e-mail,
+        biuro rachunkowe) — wyłącznie w zakresie niezbędnym do świadczenia usług.
+      </p>
+
+      <h2>6. Twoje prawa</h2>
+      <ul>
+        <li>dostęp do danych, ich sprostowanie, usunięcie lub ograniczenie przetwarzania;</li>
+        <li>sprzeciw wobec przetwarzania opartego na prawnie uzasadnionym interesie;</li>
+        <li>przenoszenie danych;</li>
+        <li>skarga do Prezesa Urzędu Ochrony Danych Osobowych (uodo.gov.pl).</li>
+      </ul>
+      <p>W sprawach danych osobowych napisz na: {brand.email}.</p>
+
+      <h2>7. Pliki cookies i statystyka</h2>
+      <p>
+        Strona nie używa plików cookies do celów marketingowych bez zgody. Jeśli uruchomimy narzędzia
+        analityczne lub reklamowe (np. Meta Pixel), poinformujemy o tym w tej polityce i zapytamy o zgodę.
+      </p>
+
+      <h2>8. Dobrowolność podania danych</h2>
+      <p>
+        Podanie danych jest dobrowolne, ale niezbędne do udzielenia odpowiedzi na zapytanie
+        lub wykonania usługi.
+      </p>
+    </div>
+  </main>
+</Base>
