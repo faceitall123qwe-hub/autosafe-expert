@@ -20,7 +20,7 @@ Pracuję dla Was — nie dla sprzedających. Zawsze kończę jasną rekomendacj�
 kupić, negocjować albo odradzam.
 
 📍 Warszawa • Radzymin • okolice do 100 km (dojazd w cenie)
-📞 +48 220 241 652
+📞 +48 799 979 735
 
 ---
 
@@ -38,7 +38,7 @@ Dojazd do 100 km w cenie. Zdjęcia i video z oględzin na WhatsApp.
 Raport stanu technicznego w cenie każdego sprawdzenia.
 
 Warszawa • Radzymin • okolice.
-📞 Zadzwoń: +48 220 241 652
+📞 Zadzwoń: +48 799 979 735
 
 ---
 
@@ -56,7 +56,7 @@ Każdą z tych rzeczy sprawdzam standardowo podczas oględzin.
 Jedna wykryta wada to często kilka tysięcy złotych do negocjacji — albo decyzja,
 która uchroni Cię przed zakupem problemu.
 
-📞 +48 220 241 652 • Warszawa i okolice do 100 km
+📞 +48 799 979 735 • Warszawa i okolice do 100 km
 
 ---
 
@@ -70,7 +70,7 @@ która uchroni Cię przed zakupem problemu.
 
 Виїзд до 100 км у ціні. Фото та відео з огляду на WhatsApp.
 Варшава • Радзимін • околиці.
-📞 +48 220 241 652
+📞 +48 799 979 735
 
 ---
 
@@ -85,4 +85,4 @@ Jak wygląda sprawdzenie auta w praktyce?
 5️⃣ Jasna rekomendacja: kupić / negocjować / odradzam.
 
 Możesz być obecny przy oględzinach — zachęcam do tego.
-📞 +48 220 241 652
+📞 +48 799 979 735

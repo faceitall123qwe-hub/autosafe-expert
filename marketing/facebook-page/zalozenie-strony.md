@@ -12,7 +12,7 @@ Wszystkie teksty do wklejenia są w `teksty-strony.md` — kopiuj-wklej.
 ## Krok 2 — Uzupełnienie profilu
 - **Zdjęcie profilowe:** logo (tarcza granatowo-pomarańczowa — mogę wygenerować) lub zdjęcie Iwana.
 - **Zdjęcie w tle (cover):** brief w `grafiki-brief.md` (mogę wygenerować).
-- **Przycisk akcji:** „Zadzwoń" → +48 220 241 652 (albo „Wyślij wiadomość" na WhatsApp).
+- **Przycisk akcji:** „Zadzwoń" → +48 799 979 735 (albo „Wyślij wiadomość" na WhatsApp).
 - **Dane kontaktowe:** telefon, e-mail, obszar: Warszawa / Radzymin.
 - **Godziny:** Pon.–Sob. 8:00–20:00.
 - **Strona WWW:** dodaj po publikacji witryny.
