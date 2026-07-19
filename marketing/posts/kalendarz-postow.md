@@ -22,7 +22,7 @@ Rytm: 2–3 posty/tydzień. Cel: budować zaufanie i pokazywać wiedzę.
 > ✔ pomoc w przygotowaniu dokumentów do rejestracji pojazdu,
 > ✔ wsparcie w formalnościach.
 > Warszawa • Radzymin • okolice do 100 km.
-> 📞 Zadzwoń: +48 220 241 652
+> 📞 Zadzwoń: +48 799 979 735
 
 ## Gotowa odpowiedź na pierwszy kontakt (skrypt telefoniczny)
 > Dzień dobry, dziękuję za kontakt. Proszę powiedzieć, jakiego samochodu dotyczy sprawa
