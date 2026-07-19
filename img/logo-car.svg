@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" fill="none">
+  <!-- dach -->
+  <path d="M62 78 C88 40, 150 30, 186 62" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+  <!-- przód: dziób + maska -->
+  <path d="M64 76 C52 80, 42 88, 40 96 C46 94, 50 96, 50 102 C50 108, 46 112, 42 116 C44 126, 50 132, 58 136 L112 138" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+  <!-- linia maski / pasa przedniego -->
+  <path d="M74 92 C104 84, 150 80, 196 82 C232 84, 262 92, 272 104" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+  <!-- tył: owal nadwozia -->
+  <path d="M272 100 C282 110, 280 124, 268 132 C250 142, 210 146, 172 144" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+  <!-- wneka kola -->
+  <path d="M116 140 C112 122, 122 108, 138 108 C154 108, 164 122, 160 142" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+  <!-- okno -->
+  <path d="M172 96 L216 92 C226 92, 230 96, 224 100 L184 104 C176 104, 170 100, 172 96 Z" stroke="#000" stroke-width="7" stroke-linejoin="round"/>
+  <!-- blik reflektora -->
+  <path d="M268 106 C274 110, 274 118, 268 124" stroke="#000" stroke-width="7" stroke-linecap="round"/>
+</svg>
