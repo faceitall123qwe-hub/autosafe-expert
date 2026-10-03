@@ -80,7 +80,7 @@ export const content: Record<Locale, Dict> = {
       subtitle: 'Realna wiedza eksperta, uczciwa cena i pełna niezależność.',
       items: [
         { title: 'Realny biegły, nie pośrednik', desc: 'Inżynier bezpieczeństwa ruchu drogowego i prawnik z licencją biegłego — a nie sprzedawca.' },
-        { title: 'Uczciwa cena', desc: 'Oględziny już od 250 zł. Dojazd w promieniu 100 km wliczony w cenę usługi.' },
+        { title: 'Uczciwa cena', desc: 'Oględziny już od 350 zł. Dojazd w promieniu 100 km wliczony w cenę usługi.' },
         { title: 'Pełna niezależność', desc: 'Pracuję dla Ciebie, nie dla sprzedającego. Rekomendacja: kup, negocjuj albo odradzam.' },
         { title: 'Pomoc w formalnościach', desc: 'Rejestracja pojazdu i wsparcie dla osób z zagranicy — od A do Z.' },
       ],
@@ -92,13 +92,13 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Sprawdzenie auta — pakiet podstawowy',
           desc: 'Analiza ogłoszenia i rozmowa ze sprzedającym, weryfikacja historii VIN, dokumenty, silnik, lakier i bezwypadkowość, hamulce, opony, elektryka, szyby, lampy, wnętrze, komora silnika, jazda próbna. Zdjęcia i video + raport stanu technicznego.',
-          priceFrom: '250 zł netto',
+          priceFrom: '350 zł netto',
           icon: 'shield',
         },
         {
           title: 'Sprawdzenie auta — pakiet rozszerzony',
           desc: 'Wszystko z pakietu podstawowego + pełna diagnostyka komputerowa (systemy bezpieczeństwa i komfortu, błędy wszystkich modułów, wtryskiwacze, DPF/FAP, turbo, ABS) oraz kontrola podwozia. Raport stanu technicznego.',
-          priceFrom: '450 zł netto',
+          priceFrom: '700 zł netto',
           icon: 'wrench',
         },
         {
@@ -110,7 +110,7 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Kompleksowa usługa (A–Z)',
           desc: 'Wyszukanie samochodu, sprawdzenie stanu technicznego, negocjacja ceny, podpisanie umowy oraz pomoc w formalnościach związanych z rejestracją pojazdu.',
-          priceFrom: '800 zł netto',
+          priceFrom: '1200 zł netto',
           icon: 'star',
         },
       ],
@@ -119,7 +119,7 @@ export const content: Record<Locale, Dict> = {
     checklist: {
       title: 'Co dokładnie sprawdzam',
       subtitle: 'Pełen, jawny zakres każdego pakietu — bez skrótów i bez niespodzianek.',
-      basicLabel: 'Pakiet podstawowy — 250 zł netto',
+      basicLabel: 'Pakiet podstawowy — 350 zł netto',
       groups: [
         { title: 'Analiza przed oględzinami', items: ['Analiza ogłoszenia', 'Rozmowa ze sprzedającym', 'Weryfikacja historii VIN'] },
         { title: 'Dokumentacja', items: ['Dowód rejestracyjny, karta pojazdu, OC', 'Dokumenty zagraniczne, akcyza (jeśli sprowadzony)', 'Dokumentacja serwisowa', 'Faktura lub umowa zakupu'] },
@@ -130,7 +130,7 @@ export const content: Record<Locale, Dict> = {
         { title: 'Jazda próbna', items: ['Zachowanie zespołu napędowego', 'Praca zawieszenia', 'Praca hamulców', 'Weryfikacja przeniesienia napędu'] },
         { title: 'Dokumentacja foto/video i raport', items: ['Zdjęcia stanu pojazdu — WhatsApp / e-mail', 'Video pracy silnika — WhatsApp / e-mail', 'Raport stanu technicznego w cenie', 'Telefon z wynikiem od razu po oględzinach'] },
       ],
-      extendedLabel: 'Pakiet rozszerzony — 450 zł netto (podstawowy + poniższe)',
+      extendedLabel: 'Pakiet rozszerzony — 700 zł netto (podstawowy + poniższe)',
       extendedGroups: [
         { title: 'Diagnostyka komputerowa', items: ['Systemy bezpieczeństwa, komfortu, elektroniki i silnika', 'Błędy wszystkich modułów', 'Korekty na wtryskiwaczach', 'Stan DPF, FAP, turbo, ABS'] },
         { title: 'Kontrola podwozia', items: ['Amortyzatory — sprawność, wycieki', 'Hamulce — zużycie układu, przewody hamulcowe', 'Zawieszenie — luzy na sworzniach, tulejach wahaczy, drążkach, łączniki stabilizatora, łożyska kół', 'Oględziny podwozia — korozja, uszkodzenia, przewody paliwowe, wycieki'] },
@@ -175,10 +175,10 @@ export const content: Record<Locale, Dict> = {
       title: 'Cennik',
       subtitle: 'Przejrzyste ceny. Bez ukrytych kosztów. Dojazd do 100 km w cenie.',
       rows: [
-        { service: 'Sprawdzenie auta — pakiet podstawowy (z raportem)', price: '250 zł netto' },
-        { service: 'Sprawdzenie auta — pakiet rozszerzony (z raportem)', price: '450 zł netto' },
+        { service: 'Sprawdzenie auta — pakiet podstawowy (z raportem)', price: '350 zł netto' },
+        { service: 'Sprawdzenie auta — pakiet rozszerzony (z raportem)', price: '700 zł netto' },
         { service: 'Pomoc w formalnościach przy rejestracji pojazdu', price: '100 zł netto' },
-        { service: 'Kompleksowa usługa: wyszukanie, sprawdzenie, negocjacja, umowa, rejestracja', price: '800 zł netto' },
+        { service: 'Kompleksowa usługa: wyszukanie, sprawdzenie, negocjacja, umowa, rejestracja', price: '1200 zł netto' },
       ],
       note: 'Ceny netto. Raport stanu technicznego samochodu w cenie każdego sprawdzenia.',
       cta: 'Umów termin',
@@ -201,7 +201,7 @@ export const content: Record<Locale, Dict> = {
         { q: 'Czy muszę być obecny?', a: 'Nie musisz. Jeśli nie możesz przyjechać, dzwonię z wynikiem od razu po oględzinach i wysyłam zdjęcia oraz video.' },
         { q: 'Czy pomagacie obcokrajowcom?', a: 'Tak. Wspieram osoby z zagranicy w organizacji formalności i w rejestracji pojazdu — po polsku, ukraińsku, rosyjsku, białorusku i angielsku.' },
         { q: 'Czy dostanę raport?', a: 'Tak — raport stanu technicznego samochodu jest w cenie każdego pakietu sprawdzenia, razem ze zdjęciami i video.' },
-        { q: 'Czym różni się pakiet podstawowy od rozszerzonego?', a: 'Rozszerzony (450 zł netto) obejmuje wszystko z podstawowego (250 zł netto) plus pełną diagnostykę komputerową i kontrolę podwozia.' },
+        { q: 'Czym różni się pakiet podstawowy od rozszerzonego?', a: 'Rozszerzony (700 zł netto) obejmuje wszystko z podstawowego (350 zł netto) plus pełną diagnostykę komputerową i kontrolę podwozia.' },
       ],
     },
     contact: {
@@ -257,7 +257,7 @@ export const content: Record<Locale, Dict> = {
       subtitle: 'Справжні знання експерта, чесна ціна та повна незалежність.',
       items: [
         { title: 'Справжній експерт, а не посередник', desc: 'Інженер безпеки дорожнього руху та юрист із ліцензією експерта — а не продавець.' },
-        { title: 'Чесна ціна', desc: 'Огляд від 250 zł. Виїзд у радіусі 100 км входить у вартість послуги.' },
+        { title: 'Чесна ціна', desc: 'Огляд від 350 zł. Виїзд у радіусі 100 км входить у вартість послуги.' },
         { title: 'Повна незалежність', desc: 'Я працюю на вас, а не на продавця. Рекомендація: купувати, торгуватися чи відмовитися.' },
         { title: 'Допомога з формальностями', desc: 'Реєстрація авто та підтримка для іноземців — від А до Я.' },
       ],
@@ -269,13 +269,13 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Перевірка авто — базовий пакет',
           desc: 'Аналіз оголошення й розмова з продавцем, перевірка історії VIN, документи, двигун, фарба та перевірка на ДТП, гальма, шини, електрика, скло, фари, салон, моторний відсік, тест-драйв. Фото й відео + звіт про технічний стан.',
-          priceFrom: '250 zł нетто',
+          priceFrom: '350 zł нетто',
           icon: 'shield',
         },
         {
           title: 'Перевірка авто — розширений пакет',
           desc: 'Усе з базового пакета + повна комп\'ютерна діагностика (системи безпеки та комфорту, помилки всіх модулів, форсунки, DPF/FAP, турбіна, ABS) та контроль ходової. Звіт про технічний стан.',
-          priceFrom: '450 zł нетто',
+          priceFrom: '700 zł нетто',
           icon: 'wrench',
         },
         {
@@ -287,7 +287,7 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Комплексна послуга (А–Я)',
           desc: 'Пошук авто, перевірка технічного стану, торг за ціну, підписання договору та допомога з формальностями при реєстрації.',
-          priceFrom: '800 zł нетто',
+          priceFrom: '1200 zł нетто',
           icon: 'star',
         },
       ],
@@ -296,7 +296,7 @@ export const content: Record<Locale, Dict> = {
     checklist: {
       title: 'Що саме я перевіряю',
       subtitle: 'Повний, відкритий обсяг кожного пакета — без скорочень і несподіванок.',
-      basicLabel: 'Базовий пакет — 250 zł нетто',
+      basicLabel: 'Базовий пакет — 350 zł нетто',
       groups: [
         { title: 'Аналіз перед оглядом', items: ['Аналіз оголошення', 'Розмова з продавцем', 'Перевірка історії VIN'] },
         { title: 'Документація', items: ['Техпаспорт, картка авто, страховка OC', 'Іноземні документи, акциз (якщо ввезене)', 'Сервісна документація', 'Рахунок або договір купівлі'] },
@@ -307,7 +307,7 @@ export const content: Record<Locale, Dict> = {
         { title: 'Тест-драйв', items: ['Поведінка силового агрегату', 'Робота підвіски', 'Робота гальм', 'Перевірка трансмісії'] },
         { title: 'Фото/відео та звіт', items: ['Фото стану авто — WhatsApp / e-mail', 'Відео роботи двигуна — WhatsApp / e-mail', 'Звіт про технічний стан у ціні', 'Дзвінок із результатом одразу після огляду'] },
       ],
-      extendedLabel: 'Розширений пакет — 450 zł нетто (базовий + нижче)',
+      extendedLabel: 'Розширений пакет — 700 zł нетто (базовий + нижче)',
       extendedGroups: [
         { title: "Комп'ютерна діагностика", items: ['Системи безпеки, комфорту, електроніки та двигуна', 'Помилки всіх модулів', 'Корекції форсунок', 'Стан DPF, FAP, турбіни, ABS'] },
         { title: 'Контроль ходової', items: ['Амортизатори — справність, течі', 'Гальма — знос системи, гальмівні шланги', 'Підвіска — люфти шарнірів, втулок важелів, тяг, стійки стабілізатора, підшипники коліс', 'Огляд ходової — корозія, пошкодження, паливні магістралі, течі'] },
@@ -350,10 +350,10 @@ export const content: Record<Locale, Dict> = {
       title: 'Ціни',
       subtitle: 'Прозорі ціни. Без прихованих витрат. Виїзд до 100 км у ціні.',
       rows: [
-        { service: 'Перевірка авто — базовий пакет (зі звітом)', price: '250 zł нетто' },
-        { service: 'Перевірка авто — розширений пакет (зі звітом)', price: '450 zł нетто' },
+        { service: 'Перевірка авто — базовий пакет (зі звітом)', price: '350 zł нетто' },
+        { service: 'Перевірка авто — розширений пакет (зі звітом)', price: '700 zł нетто' },
         { service: 'Допомога з формальностями при реєстрації', price: '100 zł нетто' },
-        { service: 'Комплексна послуга: пошук, перевірка, торг, договір, реєстрація', price: '800 zł нетто' },
+        { service: 'Комплексна послуга: пошук, перевірка, торг, договір, реєстрація', price: '1200 zł нетто' },
       ],
       note: 'Ціни нетто. Звіт про технічний стан авто в ціні кожної перевірки.',
       cta: 'Замовити час',
@@ -376,7 +376,7 @@ export const content: Record<Locale, Dict> = {
         { q: 'Чи маю бути присутнім?', a: 'Ні. Якщо не можете приїхати, телефоную з результатом одразу після огляду й надсилаю фото та відео.' },
         { q: 'Чи допомагаєте іноземцям?', a: 'Так. Підтримую іноземців в організації формальностей та реєстрації авто — українською, польською, російською, білоруською та англійською.' },
         { q: 'Чи отримаю звіт?', a: 'Так — звіт про технічний стан авто входить у ціну кожного пакета перевірки, разом із фото та відео.' },
-        { q: 'Чим відрізняється базовий пакет від розширеного?', a: 'Розширений (450 zł нетто) містить усе з базового (250 zł нетто) плюс повну комп\'ютерну діагностику та контроль ходової.' },
+        { q: 'Чим відрізняється базовий пакет від розширеного?', a: 'Розширений (700 zł нетто) містить усе з базового (350 zł нетто) плюс повну комп\'ютерну діагностику та контроль ходової.' },
       ],
     },
     contact: {
@@ -432,7 +432,7 @@ export const content: Record<Locale, Dict> = {
       subtitle: 'Real expert knowledge, fair price and full independence.',
       items: [
         { title: 'A real expert, not a middleman', desc: 'Road safety engineer and lawyer with an expert licence — not a salesman.' },
-        { title: 'Fair price', desc: 'Inspection from 250 PLN. Travel within 100 km is included in the price.' },
+        { title: 'Fair price', desc: 'Inspection from 350 PLN. Travel within 100 km is included in the price.' },
         { title: 'Fully independent', desc: 'I work for you, not for the seller. Clear recommendation: buy, negotiate, or walk away.' },
         { title: 'Paperwork help', desc: 'Vehicle registration and support for foreigners — from A to Z.' },
       ],
@@ -444,13 +444,13 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Car inspection — basic package',
           desc: 'Listing analysis and a call with the seller, VIN history check, documents, engine, paint and accident history, brakes, tyres, electrics, glass, lights, interior, engine bay, test drive. Photos and video + technical condition report.',
-          priceFrom: '250 PLN net',
+          priceFrom: '350 PLN net',
           icon: 'shield',
         },
         {
           title: 'Car inspection — extended package',
           desc: 'Everything in the basic package + full computer diagnostics (safety and comfort systems, fault codes of all modules, injectors, DPF/FAP, turbo, ABS) and an underbody check. Technical condition report.',
-          priceFrom: '450 PLN net',
+          priceFrom: '700 PLN net',
           icon: 'wrench',
         },
         {
@@ -462,7 +462,7 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Full service (A–Z)',
           desc: 'Finding the car, technical inspection, price negotiation, signing the contract and help with registration formalities.',
-          priceFrom: '800 PLN net',
+          priceFrom: '1200 PLN net',
           icon: 'star',
         },
       ],
@@ -471,7 +471,7 @@ export const content: Record<Locale, Dict> = {
     checklist: {
       title: 'What exactly I check',
       subtitle: 'The full, open scope of each package — no shortcuts, no surprises.',
-      basicLabel: 'Basic package — 250 PLN net',
+      basicLabel: 'Basic package — 350 PLN net',
       groups: [
         { title: 'Before the inspection', items: ['Listing analysis', 'Call with the seller', 'VIN history check'] },
         { title: 'Documents', items: ['Registration certificate, vehicle card, insurance', 'Foreign documents, excise duty (if imported)', 'Service history', 'Invoice or purchase agreement'] },
@@ -482,7 +482,7 @@ export const content: Record<Locale, Dict> = {
         { title: 'Test drive', items: ['Drivetrain behaviour', 'Suspension performance', 'Brake performance', 'Transmission check'] },
         { title: 'Photo/video documentation and report', items: ['Photos of the car — WhatsApp / e-mail', 'Video of the engine running — WhatsApp / e-mail', 'Technical condition report included', 'Phone call with results right after the inspection'] },
       ],
-      extendedLabel: 'Extended package — 450 PLN net (basic + below)',
+      extendedLabel: 'Extended package — 700 PLN net (basic + below)',
       extendedGroups: [
         { title: 'Computer diagnostics', items: ['Safety, comfort, electronics and engine systems', 'Fault codes of all modules', 'Injector corrections', 'DPF, FAP, turbo, ABS condition'] },
         { title: 'Underbody check', items: ['Shock absorbers — performance, leaks', 'Brakes — system wear, brake lines', 'Suspension — play in joints, bushings, rods, stabiliser links, wheel bearings', 'Underbody inspection — corrosion, damage, fuel lines, leaks'] },
@@ -525,10 +525,10 @@ export const content: Record<Locale, Dict> = {
       title: 'Pricing',
       subtitle: 'Transparent prices. No hidden costs. Travel up to 100 km included.',
       rows: [
-        { service: 'Car inspection — basic package (with report)', price: '250 PLN net' },
-        { service: 'Car inspection — extended package (with report)', price: '450 PLN net' },
+        { service: 'Car inspection — basic package (with report)', price: '350 PLN net' },
+        { service: 'Car inspection — extended package (with report)', price: '700 PLN net' },
         { service: 'Vehicle registration help', price: '100 PLN net' },
-        { service: 'Full service: search, inspection, negotiation, contract, registration', price: '800 PLN net' },
+        { service: 'Full service: search, inspection, negotiation, contract, registration', price: '1200 PLN net' },
       ],
       note: 'Net prices. A technical condition report is included with every inspection.',
       cta: 'Book a slot',
@@ -551,7 +551,7 @@ export const content: Record<Locale, Dict> = {
         { q: 'Do I have to be present?', a: 'No. If you cannot come, I call you with the results right after the inspection and send photos and video.' },
         { q: 'Do you help foreigners?', a: 'Yes. I support foreigners with paperwork and vehicle registration — in English, Polish, Ukrainian, Russian and Belarusian.' },
         { q: 'Will I get a report?', a: 'Yes — a technical condition report is included with every inspection package, along with photos and video.' },
-        { q: 'What is the difference between the basic and extended package?', a: 'The extended package (450 PLN net) includes everything in the basic one (250 PLN net) plus full computer diagnostics and an underbody check.' },
+        { q: 'What is the difference between the basic and extended package?', a: 'The extended package (700 PLN net) includes everything in the basic one (350 PLN net) plus full computer diagnostics and an underbody check.' },
       ],
     },
     contact: {
@@ -607,7 +607,7 @@ export const content: Record<Locale, Dict> = {
       subtitle: 'Реальные знания эксперта, честная цена и полная независимость.',
       items: [
         { title: 'Настоящий эксперт, а не посредник', desc: 'Инженер безопасности дорожного движения и юрист с лицензией эксперта — а не продавец.' },
-        { title: 'Честная цена', desc: 'Осмотр от 250 злотых. Выезд в радиусе 100 км включён в стоимость.' },
+        { title: 'Честная цена', desc: 'Осмотр от 350 злотых. Выезд в радиусе 100 км включён в стоимость.' },
         { title: 'Полная независимость', desc: 'Я работаю на вас, а не на продавца. Рекомендация: покупать, торговаться или отказаться.' },
         { title: 'Помощь с формальностями', desc: 'Регистрация авто и поддержка иностранцев — от А до Я.' },
       ],
@@ -619,13 +619,13 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Проверка авто — базовый пакет',
           desc: 'Анализ объявления и разговор с продавцом, проверка истории VIN, документы, двигатель, лакокрасочное покрытие и проверка на ДТП, тормоза, шины, электрика, стёкла, фары, салон, подкапотное пространство, тест-драйв. Фото и видео + отчёт о техническом состоянии.',
-          priceFrom: '250 zł нетто',
+          priceFrom: '350 zł нетто',
           icon: 'shield',
         },
         {
           title: 'Проверка авто — расширенный пакет',
           desc: 'Всё из базового пакета + полная компьютерная диагностика (системы безопасности и комфорта, ошибки всех модулей, форсунки, DPF/FAP, турбина, ABS) и проверка ходовой. Отчёт о техническом состоянии.',
-          priceFrom: '450 zł нетто',
+          priceFrom: '700 zł нетто',
           icon: 'wrench',
         },
         {
@@ -637,7 +637,7 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Комплексная услуга (А–Я)',
           desc: 'Поиск автомобиля, проверка технического состояния, торг по цене, подписание договора и помощь с регистрацией.',
-          priceFrom: '800 zł нетто',
+          priceFrom: '1200 zł нетто',
           icon: 'star',
         },
       ],
@@ -646,7 +646,7 @@ export const content: Record<Locale, Dict> = {
     checklist: {
       title: 'Что именно я проверяю',
       subtitle: 'Полный, открытый объём каждого пакета — без сокращений и сюрпризов.',
-      basicLabel: 'Базовый пакет — 250 zł нетто',
+      basicLabel: 'Базовый пакет — 350 zł нетто',
       groups: [
         { title: 'Анализ до осмотра', items: ['Анализ объявления', 'Разговор с продавцом', 'Проверка истории VIN'] },
         { title: 'Документы', items: ['Техпаспорт, карта автомобиля, страховка OC', 'Иностранные документы, акциз (если ввезён)', 'Сервисная история', 'Счёт или договор купли-продажи'] },
@@ -657,7 +657,7 @@ export const content: Record<Locale, Dict> = {
         { title: 'Тест-драйв', items: ['Поведение силового агрегата', 'Работа подвески', 'Работа тормозов', 'Проверка трансмиссии'] },
         { title: 'Фото/видео и отчёт', items: ['Фото состояния авто — WhatsApp / e-mail', 'Видео работы двигателя — WhatsApp / e-mail', 'Отчёт о техническом состоянии включён', 'Звонок с результатом сразу после осмотра'] },
       ],
-      extendedLabel: 'Расширенный пакет — 450 zł нетто (базовый + ниже)',
+      extendedLabel: 'Расширенный пакет — 700 zł нетто (базовый + ниже)',
       extendedGroups: [
         { title: 'Компьютерная диагностика', items: ['Системы безопасности, комфорта, электроники и двигателя', 'Ошибки всех модулей', 'Коррекции форсунок', 'Состояние DPF, FAP, турбины, ABS'] },
         { title: 'Проверка ходовой', items: ['Амортизаторы — исправность, течи', 'Тормоза — износ системы, тормозные шланги', 'Подвеска — люфты шаровых, сайлентблоков, тяг, стойки стабилизатора, подшипники колёс', 'Осмотр днища — коррозия, повреждения, топливные магистрали, течи'] },
@@ -700,10 +700,10 @@ export const content: Record<Locale, Dict> = {
       title: 'Цены',
       subtitle: 'Прозрачные цены. Без скрытых расходов. Выезд до 100 км включён.',
       rows: [
-        { service: 'Проверка авто — базовый пакет (с отчётом)', price: '250 zł нетто' },
-        { service: 'Проверка авто — расширенный пакет (с отчётом)', price: '450 zł нетто' },
+        { service: 'Проверка авто — базовый пакет (с отчётом)', price: '350 zł нетто' },
+        { service: 'Проверка авто — расширенный пакет (с отчётом)', price: '700 zł нетто' },
         { service: 'Помощь с регистрацией автомобиля', price: '100 zł нетто' },
-        { service: 'Комплексная услуга: поиск, проверка, торг, договор, регистрация', price: '800 zł нетто' },
+        { service: 'Комплексная услуга: поиск, проверка, торг, договор, регистрация', price: '1200 zł нетто' },
       ],
       note: 'Цены нетто. Отчёт о техническом состоянии включён в каждую проверку.',
       cta: 'Записаться',
@@ -726,7 +726,7 @@ export const content: Record<Locale, Dict> = {
         { q: 'Нужно ли мне присутствовать?', a: 'Нет. Если вы не можете приехать, я звоню с результатом сразу после осмотра и отправляю фото и видео.' },
         { q: 'Помогаете ли иностранцам?', a: 'Да. Помогаю иностранцам с формальностями и регистрацией автомобиля — на русском, польском, украинском, белорусском и английском.' },
         { q: 'Получу ли я отчёт?', a: 'Да — отчёт о техническом состоянии входит в цену каждого пакета проверки, вместе с фото и видео.' },
-        { q: 'Чем отличается базовый пакет от расширенного?', a: 'Расширенный (450 zł нетто) включает всё из базового (250 zł нетто) плюс полную компьютерную диагностику и проверку ходовой.' },
+        { q: 'Чем отличается базовый пакет от расширенного?', a: 'Расширенный (700 zł нетто) включает всё из базового (350 zł нетто) плюс полную компьютерную диагностику и проверку ходовой.' },
       ],
     },
     contact: {
@@ -782,7 +782,7 @@ export const content: Record<Locale, Dict> = {
       subtitle: 'Сапраўдныя веды эксперта, сумленная цана і поўная незалежнасць.',
       items: [
         { title: 'Сапраўдны эксперт, а не пасрэднік', desc: 'Інжынер бяспекі дарожнага руху і юрыст з ліцэнзіяй эксперта — а не прадавец.' },
-        { title: 'Сумленная цана', desc: 'Агляд ад 250 злотых. Выезд у радыусе 100 км уключаны ў кошт.' },
+        { title: 'Сумленная цана', desc: 'Агляд ад 350 злотых. Выезд у радыусе 100 км уключаны ў кошт.' },
         { title: 'Поўная незалежнасць', desc: 'Я працую на вас, а не на прадаўца. Рэкамендацыя: купляць, таргавацца ці адмовіцца.' },
         { title: 'Дапамога з фармальнасцямі', desc: 'Рэгістрацыя аўто і падтрымка замежнікаў — ад А да Я.' },
       ],
@@ -794,13 +794,13 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Праверка аўто — базавы пакет',
           desc: 'Аналіз аб’явы і размова з прадаўцом, праверка гісторыі VIN, дакументы, рухавік, лакафарбавае пакрыццё і праверка на ДТЗ, тармазы, шыны, электрыка, шкло, фары, салон, падкапотная прастора, тэст-драйв. Фота і відэа + справаздача аб тэхнічным стане.',
-          priceFrom: '250 zł нета',
+          priceFrom: '350 zł нета',
           icon: 'shield',
         },
         {
           title: 'Праверка аўто — пашыраны пакет',
           desc: 'Усё з базавага пакета + поўная камп’ютарная дыягностыка (сістэмы бяспекі і камфорту, памылкі ўсіх модуляў, фарсункі, DPF/FAP, турбіна, ABS) і праверка хадавой. Справаздача аб тэхнічным стане.',
-          priceFrom: '450 zł нета',
+          priceFrom: '700 zł нета',
           icon: 'wrench',
         },
         {
@@ -812,7 +812,7 @@ export const content: Record<Locale, Dict> = {
         {
           title: 'Комплексная паслуга (А–Я)',
           desc: 'Пошук аўтамабіля, праверка тэхнічнага стану, торг па цане, падпісанне дагавора і дапамога з рэгістрацыяй.',
-          priceFrom: '800 zł нета',
+          priceFrom: '1200 zł нета',
           icon: 'star',
         },
       ],
@@ -821,7 +821,7 @@ export const content: Record<Locale, Dict> = {
     checklist: {
       title: 'Што менавіта я правяраю',
       subtitle: 'Поўны, адкрыты аб’ём кожнага пакета — без скарачэнняў і сюрпрызаў.',
-      basicLabel: 'Базавы пакет — 250 zł нета',
+      basicLabel: 'Базавы пакет — 350 zł нета',
       groups: [
         { title: 'Аналіз да агляду', items: ['Аналіз аб’явы', 'Размова з прадаўцом', 'Праверка гісторыі VIN'] },
         { title: 'Дакументы', items: ['Тэхпашпарт, карта аўтамабіля, страхоўка OC', 'Замежныя дакументы, акцыз (калі ўвезены)', 'Сэрвісная гісторыя', 'Рахунак або дагавор куплі-продажу'] },
@@ -832,7 +832,7 @@ export const content: Record<Locale, Dict> = {
         { title: 'Тэст-драйв', items: ['Паводзіны сілавога агрэгата', 'Праца падвескі', 'Праца тармазоў', 'Праверка трансмісіі'] },
         { title: 'Фота/відэа і справаздача', items: ['Фота стану аўто — WhatsApp / e-mail', 'Відэа працы рухавіка — WhatsApp / e-mail', 'Справаздача аб тэхнічным стане ўключана', 'Званок з вынікам адразу пасля агляду'] },
       ],
-      extendedLabel: 'Пашыраны пакет — 450 zł нета (базавы + ніжэй)',
+      extendedLabel: 'Пашыраны пакет — 700 zł нета (базавы + ніжэй)',
       extendedGroups: [
         { title: 'Камп’ютарная дыягностыка', items: ['Сістэмы бяспекі, камфорту, электронікі і рухавіка', 'Памылкі ўсіх модуляў', 'Карэкцыі фарсунак', 'Стан DPF, FAP, турбіны, ABS'] },
         { title: 'Праверка хадавой', items: ['Амартызатары — спраўнасць, цечы', 'Тармазы — знос сістэмы, тармазныя шлангі', 'Падвеска — люфты шарніраў, сайлентблокаў, цяг, стойкі стабілізатара, падшыпнікі колаў', 'Агляд днішча — карозія, пашкоджанні, паліўныя магістралі, цечы'] },
@@ -875,10 +875,10 @@ export const content: Record<Locale, Dict> = {
       title: 'Цэны',
       subtitle: 'Празрыстыя цэны. Без схаваных выдаткаў. Выезд да 100 км уключаны.',
       rows: [
-        { service: 'Праверка аўто — базавы пакет (са справаздачай)', price: '250 zł нета' },
-        { service: 'Праверка аўто — пашыраны пакет (са справаздачай)', price: '450 zł нета' },
+        { service: 'Праверка аўто — базавы пакет (са справаздачай)', price: '350 zł нета' },
+        { service: 'Праверка аўто — пашыраны пакет (са справаздачай)', price: '700 zł нета' },
         { service: 'Дапамога з рэгістрацыяй аўтамабіля', price: '100 zł нета' },
-        { service: 'Комплексная паслуга: пошук, праверка, торг, дагавор, рэгістрацыя', price: '800 zł нета' },
+        { service: 'Комплексная паслуга: пошук, праверка, торг, дагавор, рэгістрацыя', price: '1200 zł нета' },
       ],
       note: 'Цэны нета. Справаздача аб тэхнічным стане ўключана ў кожную праверку.',
       cta: 'Запісацца',
@@ -901,7 +901,7 @@ export const content: Record<Locale, Dict> = {
         { q: 'Ці трэба мне прысутнічаць?', a: 'Не. Калі вы не можаце прыехаць, я тэлефаную з вынікам адразу пасля агляду і дасылаю фота і відэа.' },
         { q: 'Ці дапамагаеце замежнікам?', a: 'Так. Дапамагаю замежнікам з фармальнасцямі і рэгістрацыяй аўтамабіля — па-беларуску, па-польску, па-руску, па-ўкраінску і па-англійску.' },
         { q: 'Ці атрымаю я справаздачу?', a: 'Так — справаздача аб тэхнічным стане ўваходзіць у цану кожнага пакета праверкі, разам з фота і відэа.' },
-        { q: 'Чым адрозніваецца базавы пакет ад пашыранага?', a: 'Пашыраны (450 zł нета) уключае ўсё з базавага (250 zł нета) плюс поўную камп’ютарную дыягностыку і праверку хадавой.' },
+        { q: 'Чым адрозніваецца базавы пакет ад пашыранага?', a: 'Пашыраны (700 zł нета) уключае ўсё з базавага (350 zł нета) плюс поўную камп’ютарную дыягностыку і праверку хадавой.' },
       ],
     },
     contact: {
