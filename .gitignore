@@ -13,6 +13,9 @@ dist/
 Thumbs.db
 *.log
 
+# lokalny token (nie commitować)
+.supabase-token
+
 # local assistant config
 .claude/
 AGENTS.md
