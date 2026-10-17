@@ -8,7 +8,23 @@ Rytm: 2–3 posty/tydzień. Cel: budować zaufanie i pokazywać wiedzę.
 3. **Oferta** — konkretna usługa + cena + CTA.
 4. **Zaufanie** — kwalifikacje, opinie klientów, kulisy pracy.
 
-## Gotowe pomysły na pierwsze posty
+## Kolejność publikacji — posty są gotowe w `../facebook-page/pierwsze-posty.md`
+| Kiedy | Post | Rola |
+|---|---|---|
+| dzień 1 | 1 — Przedstawienie | kto to jest |
+| dzień 2–3 | 2 — Oferta i cennik | co i za ile |
+| dzień 4–6 | 3 — 5 rzeczy, które sprzedawca przemilczy | edukacja, najlepszy zasięg organiczny |
+| dzień 7 | 4 — wersja UA | druga grupa odbiorców |
+| dzień 9–12 | 5 — Jak wygląda sprawdzenie | zaufanie |
+| dzień 13–15 | **6 — Konsultacja 50 zł** | **najmocniejszy post pozyskujący — najniższy próg wejścia** |
+| dzień 16–18 | 7 — Co w cenie, co dodatkowo | przejrzystość, zdejmuje obawę o ukryte koszty |
+| dzień 19–21 | 8 — Pomoc w rejestracji | inna grupa niż kupujący |
+| dzień 22–24 | 9 — UA: konsultacja + rejestracja | UA, oferta zamiast samej prezentacji |
+
+Post 6 można przesunąć wcześniej, jeśli brakuje zapytań — 50 zł to najtańszy sposób,
+żeby ktoś w ogóle zadzwonił, a przy telefonie sprzedaje się pełne oględziny.
+
+## Gotowe pomysły na dalsze posty
 1. „5 rzeczy, które sprzedawca ukrywa przy sprzedaży auta" (edukacja).
 2. „Miernik lakieru pokazał 800 µm — auto po powypadkowej naprawie" (case).
 3. „Sprawdzenie auta przed zakupem — co dokładnie robię" (oferta + lista z checklisty).

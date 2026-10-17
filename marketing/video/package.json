@@ -1,0 +1,18 @@
+{
+  "name": "autosafe-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Filmiki na FB/IG z kart AutoSafe Expert (Remotion). Osobny projekt - nie wchodzi w build strony.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "node render-all.mjs",
+    "plakaty": "node render-plakaty.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.532",
+    "@remotion/transitions": "^4.0.532",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.532"
+  }
+}

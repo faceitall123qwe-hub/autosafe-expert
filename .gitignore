@@ -19,3 +19,9 @@ Thumbs.db
 # local assistant config
 .claude/
 AGENTS.md
+
+# dane operacyjne konta reklamowego — repo jest publiczne, ID konta nie powinno w nim byc
+marketing/facebook-ads/stan-konta.md
+
+# wyrenderowane filmiki — odtwarzalne z marketing/video (npm run render)
+marketing/video/out/
