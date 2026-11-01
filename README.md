@@ -43,7 +43,7 @@ Masz kilka opcji hostingu:
 
 Po założeniu konta reklamowego Meta:
 1. Skopiuj `.env.example` → `.env`, wpisz `PUBLIC_META_PIXEL_ID`.
-2. Poproś Claude (agent `web-developer`) o wpięcie pixela do `src/layouts/Base.astro`.
+2. Wepnij pixel w `src/layouts/Base.astro`.
 
 ## Marketing
 
@@ -53,14 +53,6 @@ Wszystko w folderze **`marketing/`**:
 - `facebook-ads/kreacje-brief.md` — briefy grafik/video.
 - `facebook-ads/plan-uruchomienia.md` — checklista uruchomienia krok po kroku.
 - `posts/kalendarz-postow.md` — pomysły i gotowe posty organiczne.
-
-## Praca z Claude (subagenty)
-
-Zobacz `AGENTS.md`. Skrót:
-- `web-developer` — kod i wygląd strony.
-- `copywriter` — teksty (PL/UA).
-- `ads-specialist` — kampanie Meta.
-- `designer` — grafiki i video.
 
 ## Do uzupełnienia (placeholdery)
 

@@ -17,7 +17,6 @@ Thumbs.db
 .supabase-token
 
 # local assistant config
-.claude/
 AGENTS.md
 
 # dane operacyjne konta reklamowego — repo jest publiczne, ID konta nie powinno w nim byc
